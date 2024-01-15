@@ -11,14 +11,17 @@
 		F6E763AC2B55D60200FC964C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E763AB2B55D60200FC964C /* ContentView.swift */; };
 		F6E763AE2B55D60300FC964C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6E763AD2B55D60300FC964C /* Assets.xcassets */; };
 		F6E763B12B55D60300FC964C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6E763B02B55D60300FC964C /* Preview Assets.xcassets */; };
+		F6E763B82B55DBDE00FC964C /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F6E763B72B55DBDE00FC964C /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F643D7282B55E59400793241 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F6E763A62B55D60200FC964C /* RestFull.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestFull.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6E763A92B55D60200FC964C /* RestFullApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestFullApp.swift; sourceTree = "<group>"; };
 		F6E763AB2B55D60200FC964C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F6E763AD2B55D60300FC964C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6E763B02B55D60300FC964C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F6E763B72B55DBDE00FC964C /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +38,7 @@
 		F6E7639D2B55D60200FC964C = {
 			isa = PBXGroup;
 			children = (
+				F643D7282B55E59400793241 /* README.md */,
 				F6E763A82B55D60200FC964C /* RestFull */,
 				F6E763A72B55D60200FC964C /* Products */,
 			);
@@ -53,6 +57,7 @@
 			children = (
 				F6E763A92B55D60200FC964C /* RestFullApp.swift */,
 				F6E763AB2B55D60200FC964C /* ContentView.swift */,
+				F6E763B72B55DBDE00FC964C /* SleepCalculator.mlmodel */,
 				F6E763AD2B55D60300FC964C /* Assets.xcassets */,
 				F6E763AF2B55D60300FC964C /* Preview Content */,
 			);
@@ -137,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6E763B82B55DBDE00FC964C /* SleepCalculator.mlmodel in Sources */,
 				F6E763AC2B55D60200FC964C /* ContentView.swift in Sources */,
 				F6E763AA2B55D60200FC964C /* RestFullApp.swift in Sources */,
 			);
